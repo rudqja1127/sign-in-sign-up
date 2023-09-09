@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sign in/sigin up</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
+    <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+  </head>
+  <body>
+    <!-- 탑바로고 -->
+    <div class="topbar-container">
+      <div class="logo-box">
+        <a href="#"
+          ><img
+            src="https://i.postimg.cc/SsqM0Gtt/car-poor-logo-img-1.png"
+            alt="메인홈페이지로이동"
+        /></a>
+      </div>
+    </div>
+
+    <div class="container right-panel-active">
+      <!-- Sign Up(회원가입) -->
+      <div class="container__form container--signup">
+        <form action="#" class="form" id="form1">
+          <h2 class="form__title">Sign Up</h2>
+          <input type="id" placeholder="ID" class="input" />
+          <input type="password" placeholder="Password" class="input" />
+          <input type="name" placeholder="Name" class="input" />
+          <input type="number" placeholder="Phonenumber" class="input" />
+          <input type="email" placeholder="Email" class="input" />
+          <button class="btn">Sign Up</button>
+        </form>
+      </div>
+
+      <!-- Sign In(로그인) -->
+      <div class="container__form container--signin">
+        <form action="#" class="form" id="form2">
+          <h2 class="form__title">Sign In</h2>
+          <input type="email" placeholder="Email" class="input" />
+          <input type="password" placeholder="Password" class="input" />
+          <a href="#" class="link">Forgot your password?</a>
+          <button class="btn">Sign In</button>
+        </form>
+      </div>
+
+      <!-- Overlay -->
+      <div class="container__overlay">
+        <div class="overlay">
+          <div class="overlay__panel overlay--left">
+            <button class="btn" id="signIn">Sign In</button>
+          </div>
+          <div class="overlay__panel overlay--right">
+            <button class="btn" id="signUp">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
